@@ -4,3 +4,10 @@
 /usr/bin/niReg -r -v /usr/lib/libnimMockNodes.so /etc/primesense
 /usr/bin/niReg -r -v /usr/lib/libnimCodecs.so /etc/primesense
 /usr/bin/niReg -r -v /usr/lib/libnimRecorder.so /etc/primesense
+
+# TODO add Mono support
+# Build-Depends: mono-gmcs mono-gac
+#if [ -f /usr/bin/gmcs ]
+#then
+#	gacutil -i Bin/OpenNI.net.dll -package 2.0
+#fi
